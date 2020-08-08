@@ -1,0 +1,114 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+p{
+    width: 60%;
+    margin: 0 auto;
+    color: #777576;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+.lanControw2_col_1_img{
+    width: 70%;
+    margin: 15vh auto;
+}
+.lanControw2_col_2_form {
+    width: 80%;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 10px #ccc;
+}
+.form-group {
+    position: relative;
+}
+
+.lanControw2_col_2_form label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lanControw2_col_2_form input,
+.lanControw2_col_2_form select,
+.form-control:focus{
+    border: 1px solid #e0e1e3;
+    position: relative;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem #dc354526;
+}
+
+.lanControw2_col_2_form input,
+.lanControw2_col_2_form select,
+.form-control:focus,
+.lanControw2_col_2_form ::placeholder{
+    font-size: 14px;
+    color: #c3c4c9;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+i.fas {
+    float: right;
+    margin-top: -24px;
+    margin-right: 10px;
+    pointer-events: none;
+    background-color: transparent;
+    color:#e0e1e3 !important;
+    padding-right: 5px;
+    position: inherit;
+}
+
+.btn_pink{
+    background-color: #e03b65;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: .1em;
+    border-radius: 2em;
+    margin: 1em 35% 0em;
+    text-transform: uppercase;
+    padding: .5em 1.5em;
+}
+
+/*Modal*/
+.modal-body p {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.5;
+    color: green;
+}
+
+@media (max-width: 500px){
+    h1 {
+        font-size: 1.4rem;
+    }
+    p {
+        width: 90%;
+    }
+    .lanControw2_col_1_img {
+        display: none;
+    }
+    .lanControw2_col_1.text-right {
+        text-align: center !important;
+    }
+    form.lanControw2_col_2_form.text-left {
+        margin: 1rem auto;
+        width: 90%;
+    }
+}
